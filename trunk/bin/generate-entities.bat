@@ -1,0 +1,9 @@
+@echo off
+ECHO Creating yaml files...
+php doctrine orm:convert-mapping --from-database ganga_yaml ..\database\yml\
+ECHO Creating entities...
+php doctrine orm:generate-entities ..\models\
+ECHO Generating proxies...
+php doctrine orm:generate-proxies
+ECHO Done!
+pause

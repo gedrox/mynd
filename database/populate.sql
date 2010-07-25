@@ -1,1 +1,1 @@
-INSERT INTO usr VALUES (DEFAULT, 'aigars', '1d2e6825f3b5d66501fbd2fd0770b860');
+INSERT INTO usr VALUES (DEFAULT, 'admin', '02af06af5f139502eacb5d9debebe823');

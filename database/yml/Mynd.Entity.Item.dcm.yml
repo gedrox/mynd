@@ -1,0 +1,22 @@
+Mynd\Entity\Item:
+  type: entity
+  table: item
+  fields:
+    id:
+      id: true
+      type: integer
+      unsigned: false
+      nullable: false
+      generator:
+        strategy: IDENTITY
+    path:
+      type: text
+      nullable: false
+    name:
+      type: text
+      nullable: false
+    status:
+      type: integer
+      unsigned: false
+      nullable: false
+  lifecycleCallbacks: {  }

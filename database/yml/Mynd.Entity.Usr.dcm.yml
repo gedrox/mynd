@@ -1,0 +1,20 @@
+Mynd\Entity\Usr:
+  type: entity
+  table: usr
+  fields:
+    id:
+      id: true
+      type: integer
+      unsigned: false
+      nullable: false
+      generator:
+        strategy: IDENTITY
+    login:
+      type: string(255)
+      fixed: false
+      nullable: false
+    pssw:
+      type: string(32)
+      fixed: false
+      nullable: false
+  lifecycleCallbacks: {  }

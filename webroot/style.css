@@ -1,0 +1,243 @@
+body  {
+	font-family: georgia;
+	color: #373535;
+	font-size: 1em;
+}
+div.img  {
+	float: left;
+	width:215px;
+	height: 161px;
+	margin: 5px 10px 5px 0px;
+}
+h1 {
+	font-family: georgia;
+	color: #373535;
+	font-size: 1.5em;
+}
+h2 {
+	font-family: georgia;
+	color: #373535;
+	font-size: 1em;
+	font-weight: bold;
+}
+div#blogroll {
+	font-family: georgia;
+	color: #373535;
+	font-size: 1.0em;
+	width: 30%;
+	height: 90%;
+	float: right;
+	text-align: justify;
+	padding: 5px ;
+	background-color: #eeeeee;
+	border: 1px solid #DBDBDB;
+	margin: 10px 5px 15px 15px;
+}
+h3 a:hover {
+	color: orange;
+	text-decoration: underline;
+}
+h3 a {
+	color: orange;
+	text-decoration: none;
+	font-size: 1em;
+	font-weight: normal;
+}
+h3 {
+	color: orange;
+	text-decoration: none;
+	font-size: 1em;
+	font-weight: normal;
+}
+h6 {
+	font-family: georgia;
+	color: #373535;
+	font-size: 1em;
+	font-weight: normal;
+}
+ul li{
+	color:#373535;
+	font-family: georgia;
+}
+div#header {
+	height:136px;
+	background-image: url('images/headerbg.png');
+	background-repeat: repeat;
+}
+div#content {
+	padding: 0px 10px 0px 10px;
+	margin: 10px 15% 5px 15%;
+	min-height:700px;
+	width: 70%;
+	border: 1px solid #DBDBDB;
+}
+div#navbar {
+	height: 30px;
+	width: 100%;
+	margin: 100px 110px 0px -13%;
+	float:left;
+}
+div#navbar ul {
+	margin: 1px;
+	padding: 0px;
+	font-family: georgia;
+	font-size: 1em;
+	line-height: 30px;
+	white-space: nowrap;
+	float:right;
+}
+div#navbar li {
+	list-style-type: none;
+	display: inline;
+	color: #FFF;
+}
+div#navbar li a {
+	text-decoration: none;
+	padding: 17px 10px 17px 10px;
+	color: #FFF;
+}
+div#navbar li a:active {
+	color: #FFF;
+	background-repeat: no-repeat;
+}
+div#navbar li a:visited {
+	color: #FFF;
+}
+div#navbar li a:hover {
+	text-decoration: none;
+	/*background-image:url('images/navbarhover.png');
+	background-repeat: repeat-x;*/
+	background-color: white;
+	color: #121212;
+}
+div#boxes {
+	font-family: georgia;
+	color: white;
+}
+div#boxone {
+	height:255px;
+	width: 255px; 
+	background-color: #FFF;
+	float: left;
+	margin: 0px 5px 0px 15px;
+	padding: 5px;
+}	
+div#boxtwo {
+	height:255px;
+	width: 255px; 
+	background-color: #FFF;
+	float: left;
+	margin: 0px 5px 0px 5px;
+	padding: 5px;
+}
+div#boxthree {
+	height:255px;
+	width: 255px; 
+	background-color: #FFF;
+	float: left;
+	margin: 0px 5px 0px 5px;
+	padding: 5px;
+}
+div#desone {
+	font-family: georgia;
+	color: #373535;
+	width:95%;
+	border: 1px solid #DBDBDB;
+	margin: 270px 2.5% 5px 15px;
+	background-color: #FFF;
+	padding: 5px 10px 5px 10px;
+}
+div#destwo {
+	font-family: georgia;
+	color: #373535;
+	width:95%;
+	border: 1px solid #DBDBDB;
+	margin: 10px 2.5% 5px 15px;
+	background-color: #FFF;
+	padding: 5px 10px 5px 10px;
+}
+div#desthree {
+	font-family: georgia;
+	color: #373535;
+	width:95%;
+	border: 1px solid #DBDBDB;
+	margin: 10px 2.5% 5px 15px;
+	background-color: #FFF;
+	padding: 5px 10px 5px 10px;
+}
+div#desfour {
+	font-family: georgia;
+	color: #373535;
+	width:95%;
+	border: 1px solid #DBDBDB;
+	margin: 10px 2.5% 5px 15px;
+	background-color: #FFF;
+	padding: 5px 10px 5px 10px;
+}
+div#whybuy {
+	font-family: georgia;
+	color: #373535;
+	width:95%;
+	border: 1px solid #DBDBDB;
+	margin: 270px 2.5% 5px 15px;
+	background-color: #FFF;
+	padding: 5px 10px 5px 10px;
+}
+div#footer {
+	font-family: georgia;
+	color: #FFF;
+	height:70px;
+	font-size: 1em;
+	background-image: url('images/footerbg.png');
+	background-repeat: repeat-x;
+	padding: 15px 10px 15px 10px;
+}
+div#footer a:visited{
+	font-family: georgia;
+	color: #FFF;
+	font-size: 1em;
+	text-decoration: none;
+}
+div#footer a:hover{
+	font-family: georgia;
+	color: #FFF;
+	font-size: 1em;
+	text-decoration: underline;
+}
+div#footer a{
+	font-family: georgia;
+	color: #FFF;
+	font-size: 1em;
+	text-decoration: none;
+	font-weight: bold;
+}
+.error {
+	color: #CC3333;
+}
+#header .username {
+	color: orange;
+	padding-right: 10px;
+}
+.breadCrumbs li:first-child {
+	margin-left: 0;
+}
+.breadCrumbs li {
+	display: inline;
+	margin: 0 5px;
+	padding: 2px 5px;
+	background: #DDDDDD;
+}
+.album .items li {
+	display: block;
+	height: 100px;
+	width: 100px;
+	border: 1px solid #DDDDDD;
+	float: left;
+	text-align: center;
+	margin-right: 2px;
+	margin-bottom: 2px;
+	font-size: 80%;
+}
+.clear {
+	clear: both;
+}
